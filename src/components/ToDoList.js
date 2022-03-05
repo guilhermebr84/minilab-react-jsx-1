@@ -10,7 +10,7 @@ function ToDoList() {
   return (
     <div>
       <ul className="list-group">{tasks.map((currentEl) => {
-        return <li className="list-group-item d-flex justify-content-between align-items-start">{currentEl}</li>;
+        return <li className="list-group-item"><input className="form-check-input me-1" type="checkbox" value=""/>{currentEl}</li>;
       })}</ul>
     </div>
   );

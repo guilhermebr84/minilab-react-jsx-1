@@ -4,13 +4,13 @@ function EmotionMeter() {
   if (emotion) {
     return (
       <div>
-        <i className="fa-solid fa-face-smile">happy</i>
+        <i className="fas fa-smile fa-5x"></i>
       </div>
     );
   } else {
     return (
       <div>
-        <i class="fa-solid fa-face-frown">sad</i>
+        <i className="fas fa-frown fa-5x"></i>
       </div>
     );
   }

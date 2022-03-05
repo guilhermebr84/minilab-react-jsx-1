@@ -24,7 +24,6 @@ function App() {
       <small>Renderização condicional</small>
       <hr />
       <EmotionMeter />
-
     </div>
   );
 }
